@@ -1,0 +1,5 @@
+*.suo
+
+/AzureBlogStorageTest.ConsoleApp/bin/Debug
+/AzureBlogStorageTest.ConsoleApp/obj
+/AzureBlogStorageTest.ConsoleApp/packages
