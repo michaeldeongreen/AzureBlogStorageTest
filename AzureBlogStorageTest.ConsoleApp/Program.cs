@@ -42,12 +42,13 @@ namespace AzureBlogStorageTest.ConsoleApp
             File.WriteAllBytes(@"C:\temp\Attachments\Dowload\TMRS_Change_Address.pdf", bytes);
             */
 
+            /*Delete blob
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnectionString"));
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
             CloudBlobContainer blobContainer = blobClient.GetContainerReference("documents");
             CloudBlockBlob blockBlob = blobContainer.GetBlockBlobReference("blob/doc1");
             blockBlob.Delete();
-
+            */
             Console.ReadLine();
         }
     }
